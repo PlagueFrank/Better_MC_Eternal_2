@@ -119,6 +119,12 @@
       left: 100%;
     }
 
+    nav a.active {
+      background: rgba(255, 204, 0, 0.15);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(255, 204, 0, 0.3);
+    }
+
     main {
       flex: 1;
       display: flex;
@@ -313,7 +319,7 @@
       <div class="nav-container">
         <a href="index.html">Home</a>
         <a href="info.html">Server Info & Rules</a>
-        <a href="server.html">The Server</a>
+        <a href="server.html" class="active">The Server</a>
       </div>
     </nav>
 
